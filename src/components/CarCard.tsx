@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 interface CarCardProps {
   id: number;
