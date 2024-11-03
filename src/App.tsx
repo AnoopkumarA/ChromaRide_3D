@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Camera, Car, Palette } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
